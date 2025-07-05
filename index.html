@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <header>
+      <nav>
+        <div class="logo">Muhammad Ahmad</div>
+        <button class="menu-toggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#honors">Certifications</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <div class="hero-details">
+          <h1>Hello, I'm <span class="accent">Muhammad Ahmad</span></h1>
+          <p>Associate Software Engineer | MERN Stack | Full Stack Developer</p>
+          <div class="hero-social">
+            <a
+              href="https://github.com/muhammadahmad318"
+              target="_blank"
+              class="github-btn"
+              aria-label="GitHub"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  fill="currentColor"
+                  d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.157-1.11-1.465-1.11-1.465-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.339-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.686-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.699 1.028 1.593 1.028 2.686 0 3.847-2.337 4.695-4.566 4.944.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.749 0 .267.18.578.688.48C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2Z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/muhammad-ahmad318"
+              target="_blank"
+              class="linkedin-btn"
+              aria-label="LinkedIn"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M17.146 17.146h-2.356v-3.356c0-.8-.014-1.828-1.114-1.828-1.116 0-1.287.872-1.287 1.772v3.412h-2.356V10h2.263v.984h.032c.315-.6 1.086-1.23 2.236-1.23 2.392 0 2.834 1.574 2.834 3.624v3.768zM7.5 8.984a1.37 1.37 0 1 1 0-2.74 1.37 1.37 0 0 1 0 2.74zm1.18 8.162H6.32V10h2.36v7.146z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </div>
+          <a href="#projects" class="cta-btn">View My Work</a>
+        </div>
+        <div class="hero-image">
+          <img src="/assets/profile.png" class="profile-pic" />
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about-section">
+      <h2 class="about-main-heading">About Me</h2>
+      <div class="about-content-grid">
+        <div class="about-bio">
+          <p>
+            Passionate and eager Computer Science student with a strong interest
+            in Full Stack development using JavaScript and Python Frameworks.
+            Familiar with Next.js, MERN Stack, Flask and RESTful APIs.
+            Enthusiastic about learning new technologies, problem-solving, and
+            gaining hands-on experience in the field.
+          </p>
+        </div>
+        <div class="about-photo">
+          <img src="assets/profile.png" alt="Profile Picture" />
+        </div>
+      </div>
+    </section>
+    <section id="education" class="education-section">
+      <h2 class="education-main-heading">Education</h2>
+      <div class="education-content-grid">
+        <div class="education-info">
+          <h3>GOVT. COLLEGE UNIVERSITY, LHR</h3>
+          <p>Bachelor's (Hons) in Computer Science</p>
+          <span>Lahore, Pakistan | 2021 – 25</span>
+          <div class="education-details">
+            <ul>
+              <li>
+                Core courses: Data Structures & Algorithms, OOP, Database
+                Systems, Operating Systems, Computer Networks, Software
+                Engineering, Artificial Intelligence, Web Development, and
+                Machine Learning.
+              </li>
+              <li>
+                Projects: Developed full-stack web applications, machine
+                learning models, and participated in hackathons.
+              </li>
+              <li>
+                Active member of university tech societies and coding clubs.
+              </li>
+              <li>
+                Consistently achieved top grades in programming and software
+                engineering courses.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="education-photo">
+          <img src="assets/GCU.png" alt="University Picture" />
+        </div>
+      </div>
+    </section>
+    <section id="honors" class="honors-section">
+      <h2 class="certifications-main-heading">Certifications</h2>
+      <div class="certifications-content-grid">
+        <div class="mern-logo-row">
+          <!-- MongoDB -->
+          <div class="mern-logo-col">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <path
+                d="M24 6C24 6 17 16.5 17 24.5C17 32.5 24 42 24 42C24 42 31 32.5 31 24.5C31 16.5 24 6 24 6Z"
+                fill="#4FAA41"
+              />
+              <path
+                d="M24 6C24 6 17 16.5 17 24.5C17 32.5 24 42 24 42V6Z"
+                fill="#409534"
+              />
+            </svg>
+            <div class="mern-logo-label" style="color: #4faa41">M</div>
+          </div>
+          <!-- Express -->
+          <div class="mern-logo-col">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="20" fill="#fff" />
+              <text
+                x="24"
+                y="30"
+                text-anchor="middle"
+                font-size="20"
+                fill="#222"
+                font-family="Montserrat,Arial,sans-serif"
+              >
+                ex
+              </text>
+            </svg>
+            <div
+              class="mern-logo-label"
+              style="
+                color: #fff;
+                font-family: 'Montserrat', Arial, sans-serif;
+                font-weight: 800;
+                letter-spacing: 0.5px;
+              "
+            >
+              E
+            </div>
+          </div>
+          <!-- React -->
+          <div class="mern-logo-col">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="20" fill="#fff" />
+              <g>
+                <ellipse
+                  cx="24"
+                  cy="24"
+                  rx="16"
+                  ry="6"
+                  stroke="#61DAFB"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="24"
+                  cy="24"
+                  rx="6"
+                  ry="16"
+                  stroke="#61DAFB"
+                  stroke-width="2.5"
+                />
+                <ellipse
+                  cx="24"
+                  cy="24"
+                  rx="16"
+                  ry="6"
+                  stroke="#61DAFB"
+                  stroke-width="2.5"
+                  transform="rotate(60 24 24)"
+                />
+                <ellipse
+                  cx="24"
+                  cy="24"
+                  rx="16"
+                  ry="6"
+                  stroke="#61DAFB"
+                  stroke-width="2.5"
+                  transform="rotate(120 24 24)"
+                />
+                <circle cx="24" cy="24" r="3.5" fill="#61DAFB" />
+              </g>
+            </svg>
+            <div class="mern-logo-label" style="color: #61dafb">R</div>
+          </div>
+          <!-- Node.js -->
+          <div class="mern-logo-col">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+              <polygon
+                points="24,4 44,14 44,34 24,44 4,34 4,14"
+                fill="#8CC84B"
+              />
+              <text
+                x="24"
+                y="30"
+                text-anchor="middle"
+                font-size="16"
+                fill="#333"
+                font-family="monospace"
+                font-weight="bold"
+              >
+                node
+              </text>
+            </svg>
+            <div class="mern-logo-label" style="color: #8cc84b">N</div>
+          </div>
+        </div>
+        <div class="certification-info">
+          <h3>The Complete 2024 Web Development Bootcamp (Udemy)</h3>
+          <span class="cert-date"
+            >Completed: December 27, 2024 – 61.5 hrs. total</span
+          >
+          <ul>
+            <li>
+              Covered full-stack web development using HTML, CSS, JavaScript,
+              Node.js, Express.js, MongoDB, and React.js.
+            </li>
+            <li>
+              Built multiple real-world projects including RESTful APIs and
+              full-stack web apps.
+            </li>
+            <li>
+              Gained practical experience in both front-end and back-end
+              development, version control (Git), and deployment.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects-section">
+      <h2 class="projects-main-heading">Projects</h2>
+      <div class="projects-frames-container">
+        <!-- Project Frame 1 -->
+        <div class="project-frame" id="project-frame-1">
+          <div class="project-card-modern">
+            <div class="project-image">
+              <img src="assets/project2.png" alt="Travel Planner App" />
+            </div>
+            <div class="project-content">
+              <h3>Travel Planner App</h3>
+              <span class="project-date">12/2022 – 02/2023</span>
+              <div class="project-stack">
+                Stack:
+                <span>MERN (MongoDB, Express.js, React.js, Node.js)</span>
+              </div>
+              <p>
+                Built a full-stack travel planner allowing users to create,
+                edit, and delete personalized travel plans.
+              </p>
+              <ul>
+                <li>
+                  Features: destination selection, budget estimates, travel
+                  duration, user authentication (JWT), interactive UI, real-time
+                  cost estimation.
+                </li>
+                <li>
+                  Backend handles dynamic data storage and retrieval; React
+                  frontend communicates via RESTful APIs.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Project Frame 2 -->
+        <div class="project-frame" id="project-frame-2">
+          <div class="project-card-modern">
+            <div class="project-image">
+              <img
+                src="assets/project1.png"
+                alt="Student Performance Classifier"
+              />
+            </div>
+            <div class="project-content">
+              <h3>Student Performance Classifier</h3>
+              <span class="project-date">03/2025 – 04/2025</span>
+              <div class="project-stack">
+                Stack: <span>Next.js, FastAPI, scikit-learn</span>
+              </div>
+              <p>
+                Developed a web app that predicts student academic performance
+                with 85% accuracy using ML algorithms.
+              </p>
+              <ul>
+                <li>
+                  Implemented a Random Forest Classifier model trained on UCI
+                  student dataset, using features like study time, attendance,
+                  and family support.
+                </li>
+                <li>
+                  Created a RESTful API backend with FastAPI, including input
+                  validation, error handling, and CORS support.
+                </li>
+                <li>
+                  Engineered a scalable ML pipeline: data preprocessing, feature
+                  engineering, and model evaluation metrics.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="projects-frames-nav">
+          <span class="project-nav-dot active" data-frame="0"></span>
+          <span class="project-nav-dot" data-frame="1"></span>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="skills-section">
+      <h2 class="skills-main-heading">Technical Skills</h2>
+      <div class="skills-frames-container">
+        <!-- Frame 1: Programming Concepts -->
+        <div class="skills-frame" id="frame-programming-concepts">
+          <h4><i class="fas fa-code"></i> Programming Concepts</h4>
+          <div class="skills-icon-grid">
+            <div class="skill-icon-card">
+              <i class="fas fa-code" style="color: #ff9800"></i>
+              <span>DSA</span>
+            </div>
+            <div class="skill-icon-card">
+              <i class="fas fa-cubes" style="color: #ff9800"></i>
+              <span>OOP</span>
+            </div>
+            <div class="skill-icon-card">
+              <i class="fas fa-project-diagram" style="color: #ff9800"></i>
+              <span>ER Modeling</span>
+            </div>
+            <div class="skill-icon-card">
+              <i class="fas fa-tasks" style="color: #ff9800"></i>
+              <span>SDLC</span>
+            </div>
+            <div class="skill-icon-card">
+              <i class="fas fa-users" style="color: #ff9800"></i>
+              <span>Agile</span>
+            </div>
+          </div>
+        </div>
+        <!-- Frame 2: Front-End -->
+        <div class="skills-frame" id="frame-frontend">
+          <h4><i class="fab fa-html5"></i> Front-End</h4>
+          <div class="skills-icon-grid">
+            <div class="skill-icon-card">
+              <i class="fab fa-html5" style="color: #ff5722"></i>
+              <span>HTML5</span>
+            </div>
+            <div class="skill-icon-card">
+              <i class="fab fa-css3-alt" style="color: #2196f3"></i>
+              <span>CSS3</span>
+            </div>
+            <div class="skill-icon-card">
+              <i class="fab fa-js" style="color: #f7df1e"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-icon-card">
+              <i class="fab fa-react" style="color: #61dafb"></i>
+              <span>React.js</span>
+            </div>
+            <div class="skill-icon-card">
+              <i class="fab fa-react" style="color: #0070f3"></i>
+              <span>Next.js</span>
+            </div>
+            <div class="skill-icon-card">
+              <img
+                src="assets/typescript.png"
+                alt="TypeScript"
+                style="width: 48px; height: 48px; object-fit: contain"
+              />
+              <span>TypeScript</span>
+            </div>
+          </div>
+        </div>
+        <!-- Frame 3: Back-End -->
+        <div class="skills-frame" id="frame-backend">
+          <h4><i class="fas fa-server"></i> Back-End</h4>
+          <div class="skills-icon-grid">
+            <div class="skill-icon-card">
+              <i class="fab fa-node-js" style="color: #3c873a"></i>
+              <span>Node.js</span>
+            </div>
+            <div class="skill-icon-card">
+              <i class="fas fa-server" style="color: #ff9800"></i>
+              <span>Express.js</span>
+            </div>
+            <div class="skill-icon-card">
+              <i class="fas fa-vial" style="color: #ff9800"></i>
+              <span>RESTful APIs</span>
+            </div>
+            <div class="skill-icon-card">
+              <i class="fab fa-python" style="color: #3776ab"></i>
+              <span>Python</span>
+            </div>
+            <div class="skill-icon-card">
+              <i class="fas fa-flask" style="color: #000"></i>
+              <span>Flask</span>
+            </div>
+            <div class="skill-icon-card">
+              <i class="fas fa-fire" style="color: #ffca28"></i>
+              <span>Firebase</span>
+            </div>
+          </div>
+        </div>
+        <!-- Frame 4: Databases -->
+        <div class="skills-frame" id="frame-databases">
+          <h4><i class="fas fa-database"></i> Databases</h4>
+          <div class="skills-icon-grid">
+            <div class="skill-icon-card">
+              <i class="fas fa-database" style="color: #336791"></i>
+              <span>PostgreSQL</span>
+            </div>
+            <div class="skill-icon-card">
+              <i class="fas fa-database" style="color: #ff9800"></i>
+              <span>SQL Developer</span>
+            </div>
+            <div class="skill-icon-card">
+              <i class="fas fa-leaf" style="color: #4faa41"></i>
+              <span>MongoDB</span>
+            </div>
+          </div>
+        </div>
+        <!-- Frame 5: Version Control -->
+        <div class="skills-frame" id="frame-version-control">
+          <h4><i class="fab fa-git-alt"></i> Version Control</h4>
+          <div class="skills-icon-grid">
+            <div class="skill-icon-card">
+              <i class="fab fa-git-alt" style="color: #f34f29"></i>
+              <span>Git</span>
+            </div>
+            <div class="skill-icon-card">
+              <i class="fab fa-github" style="color: #fff"></i>
+              <span>GitHub</span>
+            </div>
+            <div class="skill-icon-card">
+              <i class="fas fa-vial" style="color: #ff9800"></i>
+              <span>Postman</span>
+            </div>
+          </div>
+        </div>
+        <div class="skills-frames-nav">
+          <span class="nav-dot active" data-frame="0"></span>
+          <span class="nav-dot" data-frame="1"></span>
+          <span class="nav-dot" data-frame="2"></span>
+          <span class="nav-dot" data-frame="3"></span>
+          <span class="nav-dot" data-frame="4"></span>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <div class="contact-info contact-info-icons">
+        <a
+          href="mailto:muhammad.ahmad318@outlook.com"
+          class="contact-icon"
+          aria-label="Email"
+        >
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="tel:+923001234567" class="contact-icon" aria-label="Phone">
+          <i class="fas fa-phone"></i>
+        </a>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-icons">
+        <a
+          href="mailto:muhammad.ahmad318@outlook.com"
+          aria-label="Email"
+          target="_blank"
+          ><i class="fas fa-envelope"></i
+        ></a>
+        <a href="tel:+923180472785" aria-label="Phone"
+          ><i class="fas fa-phone"></i
+        ></a>
+        <a
+          href="https://github.com/muhammadahmad318"
+          aria-label="GitHub"
+          target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/muhammad-ahmad318"
+          aria-label="LinkedIn"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+      <p>&copy; 2025 Muhammad Ahmad. All rights reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  </body>
+</html>
