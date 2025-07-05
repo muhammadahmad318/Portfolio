@@ -144,7 +144,7 @@ nav {
   background: #ffa726;
   color: #fff;
 }
-section:not(.hero-section, .projects-section) {
+.section:not(.hero-section, .projects-section) {
   max-width: 75vw;
   margin: 5% auto;
   scroll-snap-align: start;
@@ -1213,7 +1213,7 @@ footer p {
   .projects-frames-container {
     height: 100vh;
   }
-  section:not(.hero-section, .projects-section) {
+  .section:not(.hero-section, .projects-section) {
     margin: 15% auto;
   }
   .menu-toggle {
