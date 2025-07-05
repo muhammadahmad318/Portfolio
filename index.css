@@ -788,6 +788,8 @@ footer {
 
 .skills-frames-container {
   position: relative;
+  display: flex;
+  justify-content: center;
   height: 420px;
   min-height: 420px;
   max-height: 600px;
