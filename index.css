@@ -9,7 +9,6 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #f5f5f5;
   scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
   overflow-x: hidden;
 }
 
@@ -92,7 +91,6 @@ nav {
   position: relative;
   z-index: 1;
   margin-top: 0;
-  scroll-snap-align: start;
   padding: 0;
   top: 13vh;
 }
@@ -147,7 +145,6 @@ nav {
 .section:not(.hero-section, .projects-section) {
   max-width: 75vw;
   margin: 5% auto;
-  scroll-snap-align: start;
 }
 h2 {
   color: #ff9800;
@@ -825,12 +822,9 @@ footer {
 .skills-frames-nav {
   display: flex;
   justify-content: center;
-  justify-self: center;
-  margin-top: 24px;
-  gap: 16px;
-  position: absolute;
-  z-index: 10;
-  bottom: 0%;
+  align-items: center;
+  margin-top: 1.5rem;
+  width: 100%;
 }
 
 .nav-dot {
@@ -1245,6 +1239,13 @@ footer p {
     transform: translateY(0);
     opacity: 1;
   }
+  .skills-frames-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    width: 100%;
+  }
 }
 
 @media (max-width: 700px) {
@@ -1279,6 +1280,13 @@ footer p {
     max-width: 28px !important;
     max-height: 28px !important;
     margin-bottom: 8px;
+  }
+  .skills-frames-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    width: 100%;
   }
 }
 
@@ -1446,6 +1454,13 @@ footer p {
     word-break: break-word;
     overflow-wrap: anywhere;
   }
+  .skills-frames-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    width: 100%;
+  }
 }
 
 @media (max-width: 410px) {
@@ -1486,5 +1501,12 @@ footer p {
   .education-info {
     word-break: break-word;
     overflow-wrap: anywhere;
+  }
+  .skills-frames-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    width: 100%;
   }
 }
